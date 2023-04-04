@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css';
+import { FaCodepen, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import {Link} from "react-router-dom";
 
 const Contact = () => {
     return (
@@ -58,18 +60,18 @@ const Contact = () => {
 
                             <hr></hr>
 
-                            <ul className="social-media-list">
-                                <li><a href="https://github.com/Keyzcharly" target="_blank" className="contact-icon">
-                                        <i className="fa fa-github" aria-hidden="true"></i></a>
+                            <ul className='contact-icons-bottom'>
+                                <li>
+                                <a href="https://github.com/Keyzcharly" target="_blank" rel="noreferrer" className="contact-icon"><FaGithub /></a>
                                 </li>
-                                <li><a href="https://codepen.io/Keyzcharly" target="_blank" className="contact-icon">
-                                    <i className="fa fa-codepen" aria-hidden="true"></i></a>
+                                <li>
+                                <a href="https://codepen.io/Keyzcharly" target="_blank" rel="noreferrer" className="contact-icon"><FaCodepen /></a>
                                 </li>
-                                <li><a href="https://twitter.com/keyzcharly" target="_blank" className="contact-icon">
-                                        <i className="fa fa-twitter" aria-hidden="true"></i></a>
+                                <li>
+                                <a href="https://twitter.com/keyzcharly" target="_blank" rel="noreferrer" className="contact-icon"><FaTwitter /></a>
                                 </li>
-                                <li><a href="https://www.linkedin.com/in/charles-o-9836081b4/" target="_blank" className="contact-icon">
-                                        <i className="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <li>
+                                <a href="https://www.linkedin.com/in/charles-o-9836081b4" target="_blank" rel="noreferrer" className="contact-icon"><FaLinkedin /></a>
                                 </li>
                             </ul>
 

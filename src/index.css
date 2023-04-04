@@ -329,6 +329,7 @@ Slider
   /* have to have a height */
   height: 450px;
   max-width: 800px;
+  min-width: 380px;
   text-align: center;
   position: relative;
   display: flex;
@@ -426,7 +427,7 @@ Flexbox
 }
 
 .container{
-  margin: 10% 10%;
+  margin: 10% auto;
   border-top: 3px ridge #008CBA;
   padding-top: 60px;
   border-bottom: 3px ridge #008CBA;

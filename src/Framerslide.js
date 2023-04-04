@@ -30,7 +30,7 @@ const Framerslide = () => {
                         return (
                             <motion.div className='item' key={id}>
                                 <img src={image} alt='title' />
-                               <h4><a target='_blank' style={{color: 'black', textAlign: 'center', padding: 40}} href={url}>{title}</a></h4>
+                               <h4><a target='_blank' rel="noreferrer" style={{color: 'black', textAlign: 'center', padding: 40}} href={url}>{title}</a></h4>
                             </motion.div>
                         );
                     })}

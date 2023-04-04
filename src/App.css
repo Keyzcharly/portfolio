@@ -244,3 +244,15 @@ input[type=submit]:hover {
     }
     
   }
+
+
+  .contact-icons-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 45px;
+  }
+
+  .contact-icons-bottom li a {
+    color: #003366;
+  }
